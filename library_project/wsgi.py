@@ -1,5 +1,5 @@
 """
-WSGI config for library_projet project.
+WSGI config for library_project project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -8,9 +8,9 @@ https://docs.djangoproject.com/en/6.0/howto/deployment/wsgi/
 """
 
 import os
-
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "library_projet.settings")
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "library_project.settings")
 
 application = get_wsgi_application()
